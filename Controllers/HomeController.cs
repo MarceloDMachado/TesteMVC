@@ -24,7 +24,7 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your contact page2.";
 
             return View();
         }
@@ -36,7 +36,7 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult NewView()
         {
-            ViewData["Message"] = "Marcelo é foda.";
+            ViewData["Message"] = "Nova View";
             return View();
         }
 
